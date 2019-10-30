@@ -1,0 +1,6 @@
+{
+  "orgName": "Nagarro",
+  "edition": "Developer",
+  "hasSampleData": true,
+  "features": ["SalesUser","ServiceCloud"]
+}

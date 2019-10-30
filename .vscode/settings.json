@@ -1,0 +1,8 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "eslint.nodePath": "c:\\Users\\Gabi\\.vscode\\extensions\\salesforce.salesforcedx-vscode-lwc-47.3.0\\node_modules"
+}
