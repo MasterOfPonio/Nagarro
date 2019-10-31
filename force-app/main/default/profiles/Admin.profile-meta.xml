@@ -19,11 +19,11 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.Credit_Check</recordType>
+        <layout>Case-Credit Check Page Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Credit Check Page Layout</layout>
+        <recordType>Case.Credit_Check</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
@@ -685,6 +685,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewUserPII</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
