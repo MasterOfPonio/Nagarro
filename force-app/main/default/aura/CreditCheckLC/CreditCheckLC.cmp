@@ -1,6 +1,7 @@
 <aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="CreditCheckAC" >
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="caseExist" type="boolean" />
 	<ui:inputSelect class="single" aura:id="CreditCheck"> 
             <ui:inputSelectOption text="Approved" />
             <ui:inputSelectOption text="Rejected" />
